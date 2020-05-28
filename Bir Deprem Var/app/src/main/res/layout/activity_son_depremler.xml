@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SonDepremler"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecSonDepremler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+            android:id="@+id/btnprofilim"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bizim3"
+            android:text="profilim"
+            android:textColor="@color/bizim1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="profilim"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/btnKisiler"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/bizim3"
+                android:text="Kişilerim"
+                android:textColor="@color/bizim1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="Kisilerim"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

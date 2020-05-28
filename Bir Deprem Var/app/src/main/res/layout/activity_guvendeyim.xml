@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Guvendeyim">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/beyaz"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="40dp"
+
+        android:text="Bulunduğunuz konumun yakınlarında yıkıcı bir deprem meydana geldi.Eğer güvendeyseniz lütfen aşşağıdaki butona tıklayarak güvende olduğunuzu bildirin.Aksi takdirde anlık konumunuz daha önceden belirlediğiniz acil durum kişilerine mesaj olarak gönderilecektir."/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bizim3"
+        android:id="@+id/btnGuvendeyim"
+        android:text="Güvendeyim"/>
+
+</LinearLayout>

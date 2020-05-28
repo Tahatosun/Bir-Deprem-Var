@@ -1,0 +1,2 @@
+rootProject.name='BirDepremVar'
+include ':app'

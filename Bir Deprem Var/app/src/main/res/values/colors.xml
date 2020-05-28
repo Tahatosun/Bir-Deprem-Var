@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bizim1">#073B4C</color>
+    <color name="bizim2">#118AB2</color>
+    <color name="bizim3">#06D6A0</color>
+    <color name="beyaz">#ffffff</color>
+    <color name="Kirmizi">#ff0a0a</color>
+</resources>

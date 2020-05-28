@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciProfili"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Profilim"
+                android:layout_weight="1.5"
+                android:textColor="@color/bizim3"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Ad Soyad"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtprofiladisoyadi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Ad Soyad"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="E-posta"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:id="@+id/txtprofileposta"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="E-posta"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Telefon Numarası"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:id="@+id/txtprofiltelefon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="telefon Numarası"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Yaşadığın Şehir"
+                android:textColor="@color/bizim3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="3dp"/>
+
+            <Spinner
+                android:id="@+id/spnprofilsehir"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textAlignment="center"
+                android:background="@color/bizim2"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnGuncelle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@color/bizim3"
+                    android:text="Şehir Güncelle"
+                    android:textColor="@color/bizim1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="sehirdegistir"/>
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"/>
+                <Button
+                    android:id="@+id/btnsifreGuncelle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@color/bizim3"
+                    android:text="sifre Değiştir"
+                    android:textColor="@color/bizim1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="sifreguncelle"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <Button
+                android:id="@+id/btncikis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/Kirmizi"
+                android:text="Çıkış"
+                android:textColor="@color/bizim1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="cikis"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
