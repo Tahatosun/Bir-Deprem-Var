@@ -3,4 +3,5 @@ Bir Deprem Var uygulaması bulunduğunuz konumun 150 KM çapında büyük yıkı
 
 Aynı zamanda uygulama içerisinden son 10 depremide listeleyebilirsiniz.
 
+Firebase bağlantı dosyaları ve Apikeyler özel olduğu için silinmiştir.
 (Hala geliştirilme aşamasında)
